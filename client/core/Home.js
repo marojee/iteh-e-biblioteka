@@ -14,9 +14,9 @@ const useStyles = makeStyles(theme => ({
   card: {
     width:'90%',
     margin: 'auto',
-    marginTop: 20,
+    marginTop: 22,
     marginBottom: theme.spacing(2),
-    padding: 20,
+    padding: 21,
     backgroundColor: '#ffffff' 
   },
   extraTop: {
