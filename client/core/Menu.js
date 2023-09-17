@@ -17,9 +17,9 @@ const isActive = (history, path) => {
 }
 const isPartActive = (history, path) => {
   if (history.location.pathname.includes(path))
-    return {color: '#fffde7', backgroundColor: '#f57c00', marginRight:10}
+    return {color: '#fffde9', backgroundColor: '#f56c00', marginRight:10}
   else
-    return {color: '#616161', backgroundColor: '#fffde7', border:'1px solid #f57c00', marginRight:10}
+    return {color: '#616131', backgroundColor: '#fffde9', border:'2px solid #f57c00', marginRight:10}
 }
 const Menu = withRouter(({history}) => (
   <AppBar position="fixed" style={{zIndex:12343455}}>
